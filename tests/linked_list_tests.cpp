@@ -413,7 +413,7 @@ SCENARIO("LinkedList::Insert") {
           CHECK(list.size() == size_after_insert);
         }
 
-        AND_THEN("inserted element should be at the specified index") {
+          AND_THEN("inserted element should be at the specified index") {
           CHECK(list.Get(insert_index) == insert_elem);
         }
 
