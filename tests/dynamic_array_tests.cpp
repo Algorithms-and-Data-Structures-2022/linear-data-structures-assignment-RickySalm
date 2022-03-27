@@ -5,7 +5,7 @@
 #include "utils.hpp"  // rand_array
 
 #include "assignment/dynamic_array.hpp"  // DynamicArray
-
+#include <iostream>
 using assignment::DynamicArray;
 
 using Catch::Matchers::Contains;

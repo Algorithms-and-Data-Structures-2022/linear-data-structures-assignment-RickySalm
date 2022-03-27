@@ -14,7 +14,7 @@ namespace assignment {
   struct LinkedList : List {
    private:
     // поля структуры
-    int size_{0};           // кол-вод узлов в списке
+    int size_{0};           // кол-во узлов в списке
     Node* front_{nullptr};  // указатель на начальный узел
     Node* back_{nullptr};   // указатель на конечный узел
 

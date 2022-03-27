@@ -11,8 +11,7 @@ int main(int argc, char **argv) {
 
   // Пример. Создание пустого динамического массива.
   assignment::DynamicArray array;
-
-  cout << "Write your code here...\n";
+  cout << array.capacity() << std::endl;
 
   return 0;
 }
